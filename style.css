@@ -1,0 +1,85 @@
+html,body{
+    width: 100%;
+    height: 150%;
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    position: fixed;
+    z-index: 1;
+}
+    
+    h1{
+    position: absolute;
+    left:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    }
+
+    nav{
+        position: absolute;
+        left:50%;
+        width: 45%;
+        margin-top: 0%;
+        float: right;
+        text-align: center;
+    }
+
+        nav>div{
+            width: 28%;
+            display: inline-block;
+            border: 4px solid;
+            border-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%)1;
+            border-radius:10px;
+            font-size: 30px;
+            font-family: 'Righteous', cursive;
+            background-color: white;
+            margin: 0.25%;
+
+        }
+
+            nav>div>a{
+                text-decoration: none; /*Suprime la línea inferior de los enlaces*/
+                color: black;
+            }
+
+
+            nav > #products > div{
+                display: none;
+            }
+
+            /* Hace que parezca que sea un enlace (efecto del mouse) */
+            #products:hover{
+                cursor: pointer;
+            }
+
+
+                #subapartados{
+                    width: 12.5%;
+                    border: solid black 2px;
+                    background-image:linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+                    position: fixed;
+                }
+
+                    #subapartados > a{
+                        font-size: 20px;
+                        color:white;
+                        text-decoration: none;
+                    }
+
+                        
+            /* Hace que parezca que sea un enlace (efecto del mouse) */
+            #dropdown{
+                cursor: pointer;
+            }
+

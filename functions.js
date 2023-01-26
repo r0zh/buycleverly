@@ -10,7 +10,7 @@ function dropdown() {
     state="onclick"; //Si se ejecuta dropdown con esta condición la variable state almacena el texto "onclick"
     var x = document.getElementById("subapartados");
     if (x.style.display === "none") {
-        x.style.display = "block";
+        x.style.display = "flex";
     } else {
         x.style.display = "none";
         state=""; //Si se ejecuta el dropdown con esta condición la variable state almacena ""
@@ -21,7 +21,7 @@ function dropdown() {
 function dropdown2(){
     if(state!="onclick"){ // Si la variable state no tiene almacenado el texto "onclick"
         state = "mouseover";
-        document.getElementById("subapartados").style.display="block";
+        document.getElementById("subapartados").style.display="flex";
     }
 }
 

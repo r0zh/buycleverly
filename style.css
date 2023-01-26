@@ -1,4 +1,5 @@
-
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 html,body{
     width: 100%;
@@ -9,20 +10,67 @@ html,body{
 
 /* CABECERA */
 
+header{
+    width: 100%;
+    
+}
+.header{
+    max-width: none !important;
+    background-color: white;
+}
+
+.nav{
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2rem !important;
+    font-weight: 560;
+}
+
+
+#dropdown{    
+    width: 15px;
+    height: 15px;
+
+}
+
+#subapartados{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 7.5%;
+    position: fixed;
+    top:10%;
+    right: 22.5%;
+    background-color: white;
+    border: #2a88ec solid 2px;
+    margin: -25px;
+    padding: 10px;
+}
+
+#subapartados > a{
+    text-decoration: none;
+}
+
 
 /* BODY */
 
 .compras{
     width: 100%;
+    min-width: 250px;
 }
 
 .slogan{
-    font-size: 70px;
+    font-size: 5vw;
     font-family: 'Sofia Sans Condensed', sans-serif;
+    
 }
 
 .slogan2 {
-    font-size: 120px;
+    font-size: 9vw;
     font-family: 'Sofia Sans Condensed', sans-serif;
     background-clip: text;
     -webkit-background-clip: text;
@@ -33,13 +81,14 @@ html,body{
 
 .diana{
     width: 100%;
+    min-width: 250px;
     margin-bottom:20%;
 
 }
 
 
 .blanco{
-    font-size: 70px;
+    font-size: 5vw;
     font-family: 'Sofia Sans Condensed', sans-serif;
     background-clip: text;
     -webkit-background-clip: text;
@@ -48,10 +97,10 @@ html,body{
 }
 
 .blanco2{
+    font-size: 9vw;
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 140px;
     font-family: 'Sofia Sans Condensed', sans-serif;
     color: black;
 }

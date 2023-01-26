@@ -27,9 +27,7 @@ function dropdown2(){
 
 // SI QUITAS EL MOUSE DE LA CATEGORÍA DESAPARECEN LOS APARTADOS
 function dropup(){
-    if(state==="mouseover"){ // Si la variable state tiene almacenado el texto "onclick"
+    if(state==="mouseover"){ // Si la variable state tiene almacenado el texto "mouseover"
     document.getElementById("subapartados").style.display="none";
     }
 }
-
-// Hola

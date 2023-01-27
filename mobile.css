@@ -4,3 +4,8 @@
         margin-top: 9%;
     }
 }
+
+/* IPHONE SE */
+@media (min-width: 745px) and (max-width: 767px){
+    
+}

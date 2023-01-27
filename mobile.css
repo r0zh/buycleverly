@@ -1,3 +1,5 @@
+
+/* SUBSANACIÓN FALLO TÍTULO MONTADO EN BARRA DE NAVEGACIÓN */
 @media (min-width: 745px) and (max-width: 767px){    
     .titulo{
         margin-left: -15%;
@@ -5,7 +7,34 @@
     }
 }
 
+/* DIMENSIONES MÓVIL GENERAL */
+@media (min-width: 250px) and (max-width: 750px){
+    .slogan{
+        font-size: 10vw;        
+    }
+    
+    .slogan2 {
+        font-size: 20vw;
+    }
+
+    .blanco{
+        font-size: 10vw;
+    }
+    
+    .blanco2{
+        font-size: 22vw
+    }
+
+    #diana{
+        order: 0;
+    }
+
+    #diana-text{
+        order: 1;
+    }
+}
+
 /* IPHONE SE */
-@media (min-width: 745px) and (max-width: 767px){
+@media (min-width: 375px) and (max-width: 380px){
     
 }

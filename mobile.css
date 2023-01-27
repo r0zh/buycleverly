@@ -1,0 +1,6 @@
+@media (min-width: 745px) and (max-width: 767px){    
+    .titulo{
+        margin-left: -15%;
+        margin-top: 9%;
+    }
+}

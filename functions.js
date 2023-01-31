@@ -31,3 +31,12 @@ function dropup(){
     document.getElementById("subapartados").style.display="none";
     }
 }
+
+
+// setTimeout(function() {
+//     var email = prompt("Introduzca su dirección de correo electrónico para suscribirse a nuestro newsletter:");
+//     if (email) {
+//       // aquí puede incluir el código para hacer algo con el correo electrónico introducido
+//     }
+//   }, 10000);
+  
